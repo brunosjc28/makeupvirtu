@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Maquiagem</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F8F9FA; /* Tom moderno e clean */
+            color: #333;
+        }
+        header {
+            background-color: #D63384; /* Rosa vibrante moderno */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .banner img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .produtos h2 {
+            color: #D63384;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .produto-card {
+            background-color: #FFFFFF;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            margin: 10px;
+            display: inline-block;
+            width: 220px;
+            text-align: center;
+        }
+        .produto-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #D63384;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Loja de Maquiagem</div>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#promocoes">Promoções</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <img src="imagens/banner.jpg" alt="Promoção de Maquiagem">
+    </section>
+
+    <section id="produtos" class="produtos">
+        <h2>Produtos em Destaque</h2>
+        <!-- Produto 1 -->
+        <div class="produto-card">
+            <img src="imagens/produto1.jpg" alt="Base de Alta Cobertura">
+            <p>Base de Alta Cobertura</p>
+            <p>R$ 79,90</p>
+        </div>
+        <!-- Produto 2 -->
+        <div class="produto-card">
+            <img src="imagens/produto2.jpg" alt="Sombra Glitter">
+            <p>Sombra Glitter</p>
+            <p>R$ 45,90</p>
+        </div>
+        <!-- Produto 3 -->
+        <div class="produto-card">
+            <img src="imagens/produto3.jpg" alt="Máscara para Cílios">
+            <p>Máscara para Cílios</p>
+            <p>R$ 39,90</p>
+        </div>
+        <!-- Produto 4 -->
+        <div class="produto-card">
+            <img src="imagens/produto4.jpg" alt="Gloss Labial">
+            <p>Gloss Labial</p>
+            <p>R$ 25,90</p>
+        </div>
+        <!-- Produto 5 -->
+        <div class="produto-card">
+            <img src="imagens/produto5.jpg" alt="Lápis de Olho">
+            <p>Lápis de Olho</p>
+            <p>R$ 19,90</p>
+        </div>
+    </section>
+
+    <section id="promocoes" class="produtos">
+        <h2>Promoções</h2>
+        <!-- Produto em promoção 1 -->
+        <div class="produto-card">
+            <img src="imagens/produto1.jpg" alt="Base de Alta Cobertura">
+            <p>Base de Alta Cobertura</p>
+            <p><strong>R$ 59,90</strong> <span style="text-decoration: line-through; color: #999;">R$ 79,90</span></p>
+        </div>
+        <!-- Produto em promoção 2 -->
+        <div class="produto-card">
+            <img src="imagens/produto2.jpg" alt="Sombra Glitter">
+            <p>Sombra Glitter</p>
+            <p><strong>R$ 35,90</strong> <span style="text-decoration: line-through; color: #999;">R$ 45,90</span></p>
+        </div>
+        <!-- Produto em promoção 3 -->
+        <div class="produto-card">
+            <img src="imagens/produto3.jpg" alt="Máscara para Cílios">
+            <p>Máscara para Cílios</p>
+            <p><strong>R$ 29,90</strong> <span style="text-decoration: line-through; color: #999;">R$ 39,90</span></p>
+        </div>
+        <!-- Produto em promoção 4 -->
+        <div class="produto-card">
+            <img src="imagens/produto4.jpg" alt="Gloss Labial">
+            <p>Gloss Labial</p>
+            <p><strong>R$ 19,90</strong> <span style="text-decoration: line-through; color: #999;">R$ 25,90</span></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Makeup only - Todos os direitos reservados.</p>
+        <p>Redes sociais | Contato</p>
+    </footer>
+</body>
+</html>
